@@ -15,7 +15,7 @@ const Table = ({className, data}) => (
 					<th>Volume</th>
 				</tr>
 				{data.map(item => (
-					<tr>
+					<tr key={`${item.open}${item.high}${item.close}${item.volume}`}>
 						<td>{moment(item.date).format("DD-MM-YYYY")}</td>
 						<td>{item.open}</td>
 						<td>{item.high}</td>

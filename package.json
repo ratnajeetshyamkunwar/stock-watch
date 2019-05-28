@@ -1,0 +1,28 @@
+{
+  "name": "stock-watch",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "d3-dsv": "^1.0.8",
+    "d3-format": "^1.2.1",
+    "d3-scale": "^1.0.7",
+    "d3-time-format": "^2.1.1",
+    "express": "^4.15.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "moment": "^2.24.0",
+    "next": "latest",
+    "prop-types": "^15.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-stockcharts": "^0.7.8",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}

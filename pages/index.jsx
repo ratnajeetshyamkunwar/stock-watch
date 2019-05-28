@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Chart from '../components/Chart';
 import {Container, H2} from './styles';
-import { getData } from '../components/Chart/utils';
+import { getData } from '../utils/chart-utils';
 
 class HistoricalPage extends Component {
 	state = {

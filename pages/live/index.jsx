@@ -1,8 +1,7 @@
 import { Component } from 'react'
-import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
 import Chart from '../../components/Chart'
-import { parseJsonWithoutSorting, parseJson } from '../../components/Chart/utils'
+import { parseJson } from '../../utils/chart-utils'
 import { Container, Subscribe, Unsubscribe } from './styles';
 
 class LivePage extends Component {

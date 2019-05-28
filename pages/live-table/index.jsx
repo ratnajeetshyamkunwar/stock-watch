@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import fetch from 'isomorphic-unfetch'
 import Table from '../../components/Table'
-import { parseJson } from '../../components/Chart/utils'
-import { Container, Subscribe, Unsubscribe } from './styles';
+import { parseJson } from '../../utils/chart-utils'
+import { Container, Subscribe, Unsubscribe } from './styles'
 
 class TablePage extends Component {
   static async getInitialProps ({ req }) {

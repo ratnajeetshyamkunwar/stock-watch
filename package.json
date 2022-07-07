@@ -9,7 +9,7 @@
     "d3-time-format": "^2.1.1",
     "express": "^4.15.2",
     "isomorphic-unfetch": "^2.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "next": "latest",
     "prop-types": "^15.6.0",
     "react": "^16.7.0",

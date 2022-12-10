@@ -7,7 +7,7 @@
     "d3-format": "^1.2.1",
     "d3-scale": "^1.0.7",
     "d3-time-format": "^2.1.1",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "isomorphic-unfetch": "^2.0.0",
     "moment": "^2.24.0",
     "next": "latest",
